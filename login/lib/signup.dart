@@ -28,7 +28,7 @@ class SignupPage extends StatelessWidget {
               Column(
                 children: <Widget>[
                   Text(
-                    "Sign up",
+                    "Registrarse",
                     style: TextStyle(
                       fontSize: 30,
                       fontWeight: FontWeight.bold,
@@ -38,7 +38,7 @@ class SignupPage extends StatelessWidget {
                     height: 20,
                   ),
                   Text(
-                    "Create an account, It's free",
+                    "Crea una cuenta, es gratis!",
                     style: TextStyle(
                       fontSize: 15,
                       color: Colors.grey[700],
@@ -48,9 +48,9 @@ class SignupPage extends StatelessWidget {
               ),
               Column(
                 children: <Widget>[
-                  makeInput(label: "Email"),
-                  makeInput(label: "Password", obscureText: true),
-                  makeInput(label: "Confirm Password", obscureText: true),
+                  makeInput(label: "Correo"),
+                  makeInput(label: "Contraseña", obscureText: true),
+                  makeInput(label: "Confirmar Contraseña", obscureText: true),
                 ],
               ),
               Container(
@@ -69,7 +69,7 @@ class SignupPage extends StatelessWidget {
                     borderRadius: BorderRadius.circular(50),
                   ),
                   child: Text(
-                    "Sign up",
+                    "Guardar",
                     style: TextStyle(
                       fontWeight: FontWeight.w600,
                       fontSize: 18,
@@ -87,9 +87,9 @@ class SignupPage extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
-                    Text("Already have an account?"),
+                    Text("¿Ya tienes una cuenta?"),
                     Text(
-                      " Login",
+                      " Iniciar sesión",
                       style: TextStyle(
                         fontWeight: FontWeight.w600,
                         fontSize: 18,
